@@ -23,6 +23,6 @@ Entity resolution queries can be POSTed to `resolve` with a request body includi
   Second, privacy can be injected into specific entities.
   Future query responses containing these entities will have additional privacy.
 
-
+------------
 
 Whodis is a free, public infrastructure project supported by donations from people like you.
