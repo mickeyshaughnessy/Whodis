@@ -8,7 +8,7 @@
     # endpoint for getting reporting data
 
 import json, redis, uuid
-import config, handlers
+import config
 from flask import Flask, jsonify, request
 from handlers import validate, db_inject, db_revolve
 redis = redis.StrictRedis()
