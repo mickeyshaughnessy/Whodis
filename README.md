@@ -1,0 +1,2 @@
+# Whodis
+Entity Resolution API 
