@@ -10,7 +10,7 @@
 import json, redis, uuid
 import config
 from flask import Flask, jsonify, request
-from handlers import validate, db_inject, db_revolve
+from handlers import validate, db_inject, db_resolve
 redis = redis.StrictRedis()
 
 app = Flask(__name__)
