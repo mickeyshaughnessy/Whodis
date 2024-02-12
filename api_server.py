@@ -1,11 +1,5 @@
 # This is the whodis api server
-# It has a customer REST API:
-
-# POST, GET /resolve
-    # endpoint for configuring account, payments, budgets, and creatives
-
-# POST /report
-    # endpoint for getting reporting data
+# It has a REST API to execute queries and inject privacy:
 
 import json, redis, uuid
 import config
