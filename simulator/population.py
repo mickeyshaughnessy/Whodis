@@ -1,9 +1,6 @@
 import json, uuid, random
 import numpy as np
 
-
-#with open('user_payload_samples.json') as f:
- #   user_samples = json.load(f)
 with open("urls_sample.txt") as f:
     pages = f.readlines()
     pages = [p.rstrip() for p in pages]

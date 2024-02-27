@@ -19,3 +19,17 @@
 {"imp": [], "site": {"page": "www.apple.com"}, "user": {"ext": {"eids": [{"source": "id5-sync.com", "uids": "6139fd33-142a-46f1-80d3-c249ebcf4545"}, {"source": "liveramp.com", "uids": "c57fcd0c-bc92-4035-9fca-cdde5824dbb8"}]}}, "device": {"ip": 8829}}
 {"imp": [], "site": {"page": "www.stackoverflow.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "5f4526dd-a307-4981-a29a-7966c4e43ca2"}, {"source": "adserver.org", "uids": "52f5cdf7-54fd-4eaa-9ac7-99a3542aca0d"}, {"source": "id5-sync.com", "uids": "9e605875-f032-41b3-af02-e427af682b90"}, {"source": "liveramp.com", "uids": "7dcb1f6c-5ccd-451d-9910-bbcf508fac1f"}]}}, "device": {}}
 {"imp": [], "site": {"page": "www.sportsauthority.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "edc18b83-5f2d-47cb-97a4-08411726bf96"}, {"source": "adserver.org", "uids": "330baa4c-b2d1-41a3-9bfc-7ef0d01d67ca"}]}}, "device": {"ip": 8693}}
+{"imp": [], "site": {"page": "www.skype.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "3588bd98-723f-4686-b968-791605478e02"}, {"source": "liveramp.com", "uids": "ca31c3fd-f2e9-4974-ab5b-6c5cb26aa957"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.nutrisystem.com"}, "user": {"ext": {"eids": [{"source": "liveramp.com", "uids": "7112886f-c76c-4879-82e6-6cd14056dfdd"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.soundcloud.com"}, "user": {}, "device": {"ip": 20663}}
+{"imp": [], "site": {"page": "www.weightwatchers.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.jenny-craig.com"}, "user": {"id": "e9cb97e8-b880-436c-8fe5-6619b8510926"}, "device": {"ip": 21850}}
+{"imp": [], "site": {"page": "www.cabelas.com"}, "user": {}, "device": {"ip": 5840}}
+{"imp": [], "site": {"page": "www.basspro.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "3658ad8f-a5cf-45e8-a118-3e690922f6af"}, {"source": "id5-sync.com", "uids": "8660ce8e-163a-4270-88ed-a9fadb4529e0"}, {"source": "liveramp.com", "uids": "9fb8cc7a-7da1-4ebd-b575-ecd0f25f86e0"}]}}, "device": {"ip": 20169}}
+{"imp": [], "site": {"page": "www.timberland.com"}, "user": {"id": "abe733c5-fe50-4d9d-b4b0-c87a15784f54"}, "device": {}}
+{"imp": [], "site": {"page": "www.yandex.ru"}, "user": {"ext": {"eids": []}}, "device": {}}
+{"imp": [], "site": {"page": "www.homeaway.com"}, "user": {}, "device": {"ip": 20341}}
+{"imp": [], "site": {"page": "www.imdb.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.imdb.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "c6153edd-d257-492c-829a-498ea07366f6"}, {"source": "id5-sync.com", "uids": "52235190-2819-44bb-a791-5558f15b25fd"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.sears.com"}, "user": {}, "device": {"ip": 13782}}
+{"imp": [], "site": {"page": "www.whatsapp.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "4087a6a1-e609-468d-969a-29893a8a4027"}, {"source": "adserver.org", "uids": "ff6aae72-e57b-47a3-a48e-48ac763468b5"}, {"source": "id5-sync.com", "uids": "7f60edea-8282-4277-966b-8a6ba75204a7"}, {"source": "liveramp.com", "uids": "ce283d18-300b-4bf9-8d13-40ff983a4a53"}]}}, "device": {"ip": 7130}}
