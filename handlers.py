@@ -108,3 +108,6 @@ def db_resolve(req):
 
 def db_inject(reslv, req):
     pass
+
+if __name__ == "__main__":
+    # test the db get functionality here
