@@ -25,17 +25,17 @@ class database:
         # assume they are vectors 10 long
         import math
         #print(event, db_event)
-        return math.sqrt(sum([abs(event.get("features")[i] - db_event.get("features")[i]) for i in range(10)]))
+        return math.sqrt(sum([(event.get("features")[i] - db_event.get("features")[i])**2 for i in range(10)]))
 
     def recursive_descent(self, event, db_events_keys):
-        print(event, db_events_keys)
+        #print(event, db_events_keys)
         if not db_events_keys: 
             print('here')
             return None  # Base case
 
-        print(db_events_keys)
+        #print(db_events_keys)
         db_events = [self.get(str(k)) for k in db_events_keys]
-        print(db_events)
+        #print(db_events)
         if not db_events:
             print('here1')
             return None  # Safety check
@@ -73,7 +73,7 @@ if __name__ == "__main__":
     # test the db get functionality here
     db = database()
     redis.delete("REDHASH_TEST")
-    for i in range(100):
+    for i in range(500):
         features = [random.random() for j in range(10)]
         candles = []
         for j,v in redis.hscan_iter("REDHASH_TEST"): # getting keys
@@ -85,9 +85,11 @@ if __name__ == "__main__":
             #elif d < candles[-12][1]: # (index, distance)
             candles.append((j, d))
             candles.sort(key=lambda x : -x[1])
-        print(sum([c[1] for c in candles]))
+        #print(sum([c[1] for c in candles]))
         redis.hset("REDHASH_TEST", i, json.dumps({"features" : features, "candles" : [c[0] for c in candles[-12:]]})) 
     print('finished loading db')
+    print(i, candles)
+
     query_event = {"features" : [random.random() for j in range(10)]}
     print(query_event)
     res = db.get_by_event(query_event)
