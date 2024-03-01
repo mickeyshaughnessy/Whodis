@@ -1,11 +1,14 @@
 import random, json, redis
 import config
 
+FEATURE_D = 8
+DB_SIZE = 500
+
 redis = redis.StrictRedis(charset="utf-8", decode_responses=True)
 class database:
     def __init__(self):
         self.candles = [random.choice([j for j in range(100)]) for i in range(12)]
-        self.stopping_criteria = 0.001  # for recursive descent stopping
+        self.stopping_criteria = 0.7  # for recursive descent stopping
 
     def get_salt(self, key):
         return redis.hget(config.REDHASH_SALTS, key)
@@ -25,14 +28,14 @@ class database:
         # assume they are vectors 10 long
         import math
         #print(event, db_event)
-        return math.sqrt(sum([(event.get("features")[i] - db_event.get("features")[i])**2 for i in range(10)]))
+        return math.sqrt(sum([(event.get("features")[i] - db_event.get("features")[i])**2 for i in range(FEATURE_D)]))
 
     def recursive_descent(self, event, db_events_keys):
         #print(event, db_events_keys)
         if not db_events_keys: 
             print('here')
             return None  # Base case
-
+        print(db_events_keys)
         #print(db_events_keys)
         db_events = [self.get(str(k)) for k in db_events_keys]
         #print(db_events)
@@ -45,8 +48,10 @@ class database:
         best_match = distances[0][1]  # closest point
 
         if distances[0][0] < self.stopping_criteria + 0.0 : # inject noise here
+            print('made it out')
             return best_match  # Stopping condition met
         else:
+            print('made it')
             return self.recursive_descent(event, best_match.get("candles", []))
 
     def get_by_event(self, event):
@@ -70,11 +75,12 @@ def db_inject(reslv, req):
     pass
 
 if __name__ == "__main__":
+
     # test the db get functionality here
     db = database()
     redis.delete("REDHASH_TEST")
-    for i in range(500):
-        features = [random.random() for j in range(10)]
+    for i in range(DB_SIZE):
+        features = [random.random() for j in range(FEATURE_D)]
         candles = []
         for j,v in redis.hscan_iter("REDHASH_TEST"): # getting keys
             v = json.loads(v)
@@ -88,9 +94,9 @@ if __name__ == "__main__":
         #print(sum([c[1] for c in candles]))
         redis.hset("REDHASH_TEST", i, json.dumps({"features" : features, "candles" : [c[0] for c in candles[-12:]]})) 
     print('finished loading db')
-    print(i, candles)
+    #print(i, candles)
 
-    query_event = {"features" : [random.random() for j in range(10)]}
-    print(query_event)
+    query_event = {"features" : [random.random() for j in range(FEATURE_D)]}
     res = db.get_by_event(query_event)
-    print(res)
+    if res:
+        print(res, query_event)
