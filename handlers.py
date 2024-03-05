@@ -5,10 +5,11 @@ FEATURE_D = 8
 DB_SIZE = 500
 
 redis = redis.StrictRedis(charset="utf-8", decode_responses=True)
+
 class database:
     def __init__(self):
-        self.candles = [random.choice([j for j in range(100)]) for i in range(12)]
-        self.stopping_criteria = 0.7  # for recursive descent stopping
+        self.candles = [random.choice([j for j in range(DB_SIZE)]) for i in range(12)]
+        self.stopping_criteria = 0.5  # for recursive descent stopping
 
     def get_salt(self, key):
         return redis.hget(config.REDHASH_SALTS, key)

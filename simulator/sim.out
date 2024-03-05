@@ -1934,3 +1934,165 @@
 {"imp": [], "site": {"page": "www.bedbathandbeyond.com"}, "user": {"id": "00ed34a3-6be6-4d8c-bb7b-fde44bdcdc05"}, "device": {"ip": 17147}}
 {"imp": [], "site": {"page": "www.sportsauthority.com"}, "user": {"id": "ce58fe14-3b2d-45e6-819b-33ce2fe3bb85"}, "device": {}}
 {"imp": [], "site": {"page": "www.gnc.com"}, "user": {"id": "4283072790"}, "device": {"ip": 672}}
+{"imp": [], "site": {"page": "www.patagonia.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.academy.com"}, "user": {"id": {"zip": "80226", "lat": 39.6824, "lon": -105.084, "city": "LAKEWOOD", "country": "USA", "region": "CO", "metro": "303", "type": 2}}, "device": {"ip": 1397}}
+{"imp": [], "site": {"page": "www.jcpenney.com"}, "user": {"id": "2c3be68f-3975-47f7-aa08-b7f5c388bb97"}, "device": {}}
+{"imp": [], "site": {"page": "www.yahoo.com"}, "user": {"id": {"lat": 39.7, "lon": -105.09, "country": "USA", "type": 2}}, "device": {"ip": 9393}}
+{"imp": [], "site": {"page": "www.sears.com"}, "user": {"id": "ebbeb937-75a9-4177-b32a-38e56c4b493e"}, "device": {"ip": 15050}}
+{"imp": [], "site": {"page": "www.wayfair.com"}, "user": {"id": {"lat": 39.67, "lon": -105.08, "country": "USA", "type": 2}}, "device": {"ip": 7839}}
+{"imp": [], "site": {"page": "www.asics.com"}, "user": {"id": "6dbcb5ce-a094-4816-b8fb-41567cb34ed8"}, "device": {"ip": 15113}}
+{"imp": [], "site": {"page": "www.orbitz.com"}, "user": {"id": "6879be09-3f32-416e-9d79-90ec322b4e72"}, "device": {"ip": 20819}}
+{"imp": [], "site": {"page": "www.vitaminshoppe.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "4ecf13e9-5ff5-48ee-bca4-9b31fbd20fb8"}, {"source": "adserver.org", "uids": "7a4b7214-b5e6-46c0-8207-ed9867b33186"}, {"source": "id5-sync.com", "uids": "851dcacf-be94-4473-a354-0c2babe7a1c6"}]}}, "device": {"ip": 7674}}
+{"imp": [], "site": {"page": "www.gnc.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.newbalance.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "f7c7ecf8-54da-4e61-bacf-6e7b2a40826a"}, {"source": "liveramp.com", "uids": "2add5d8b-b65d-4710-9539-dc2c1d8fbb91"}]}}, "device": {"ip": 14840}}
+{"imp": [], "site": {"page": "www.travelocity.com"}, "user": {"id": "2efab1dd-4265-412c-a200-ed229cc650e7"}, "device": {}}
+{"imp": [], "site": {"page": "www.spotify.com"}, "user": {}, "device": {"ip": 22969}}
+{"imp": [], "site": {"page": "www.vans.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "19999f5b-e57c-4d0f-8baf-d78ae2d41620"}, {"source": "id5-sync.com", "uids": "84c7b7bf-b9b8-467f-8b44-74cbe7a5ebc0"}, {"source": "liveramp.com", "uids": "c7769843-d0ec-41f1-8c56-27cb1fd9d571"}]}}, "device": {"ip": 16604}}
+{"imp": [], "site": {"page": "www.basspro.com"}, "user": {"id": "1190869f-dd61-4346-b856-78dafc068c1f"}, "device": {}}
+{"imp": [], "site": {"page": "www.imgur.com"}, "user": {"id": {"zip": "80226", "lat": 39.66, "lon": -105.1, "city": "LAKEWOOD", "country": "USA", "region": "CO", "metro": "303", "type": 2}}, "device": {}}
+{"imp": [], "site": {"page": "www.nike.com"}, "user": {"id": "5654914248"}, "device": {"ip": 2241}}
+{"imp": [], "site": {"page": "www.twitter.com"}, "user": {"id": "3593e40d-d7b1-4e95-9d3b-1c9c026a5fb2"}, "device": {}}
+{"imp": [], "site": {"page": "www.whatsapp.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.bestbuy.com"}, "user": {"id": "ef2547ef-ec18-44f8-9859-067a082c7161"}, "device": {"ip": 5967}}
+{"imp": [], "site": {"page": "www.mail.ru"}, "user": {"id": "8371460324"}, "device": {}}
+{"imp": [], "site": {"page": "www.kayak.com"}, "user": {}, "device": {"ip": 20519}}
+{"imp": [], "site": {"page": "www.soundcloud.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "527a6466-9601-4fbf-85be-409611855d38"}, {"source": "id5-sync.com", "uids": "c67c95fb-de28-4b04-953a-b51b76c0de41"}]}}, "device": {"ip": 15401}}
+{"imp": [], "site": {"page": "www.adobe.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "7856fa68-d2b7-4918-8cb6-0430f4f52acf"}, {"source": "id5-sync.com", "uids": "aef1e48e-6672-433b-ab3e-d510ec68647c"}]}}, "device": {"ip": 1361}}
+{"imp": [], "site": {"page": "www.yandex.ru"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "55a06448-f655-4423-a125-887ceac51ab9"}, {"source": "adserver.org", "uids": "e3fe034d-6602-4d60-82d8-65f5d062569b"}, {"source": "id5-sync.com", "uids": "f8441367-69ca-4af0-8d47-28b272a12d2e"}, {"source": "liveramp.com", "uids": "8cee9ea7-ce17-4765-a288-dabd1822aad8"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.kayak.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "02cb2086-fe83-4900-b7f0-d8e202436bd2"}, {"source": "liveramp.com", "uids": "11e39dd0-5c31-4cd7-8339-a3979c62dc83"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.converse.com"}, "user": {"id": "2d3a85c6-829a-45b1-8bd1-0eed4f3c22f8"}, "device": {"ip": 18617}}
+{"imp": [], "site": {"page": "www.apple.com"}, "user": {"id": "cc3a1671-03cf-4780-a143-61a11c554392"}, "device": {}}
+{"imp": [], "site": {"page": "www.ebay.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "0afb8bdc-295a-4e50-af5b-ae0c54330819"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.sportsauthority.com"}, "user": {"id": "1f043e13-846a-4eb6-b5e2-41b4c794bd3a"}, "device": {"ip": 6168}}
+{"imp": [], "site": {"page": "www.sportsauthority.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.medium.com"}, "user": {"id": {"zip": "80226", "lat": 39.8039, "lon": -105.0985, "city": "LAKEWOOD", "country": "USA", "region": "CO", "metro": "303", "type": 2}}, "device": {"ip": 1184}}
+{"imp": [], "site": {"page": "www.nutrisystem.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "27965406-cdf0-42d8-b0a9-30a09fade32a"}, {"source": "id5-sync.com", "uids": "4290245b-e096-40e2-97fd-4a35aa67351a"}, {"source": "liveramp.com", "uids": "879aa38a-e066-4e52-995d-837621f792cc"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.skechers.com"}, "user": {"id": "4b8e7f05-e1c0-49cb-90a7-9dc852b252ed"}, "device": {}}
+{"imp": [], "site": {"page": "www.kohls.com"}, "user": {"ext": {"eids": []}}, "device": {"ip": 11452}}
+{"imp": [], "site": {"page": "www.booking.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "9c0e0966-1d69-44c4-b493-b79da34211f6"}, {"source": "id5-sync.com", "uids": "aca76c8b-bc1c-4b3b-b950-1fe750bd8ecb"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.newbalance.com"}, "user": {}, "device": {"ip": 20734}}
+{"imp": [], "site": {"page": "www.jcpenney.com"}, "user": {"id": "ebccae01-1cb2-47d6-92f7-f13ee00bdc7b"}, "device": {"ip": 18426}}
+{"imp": [], "site": {"page": "www.weibo.com"}, "user": {}, "device": {"ip": 1945}}
+{"imp": [], "site": {"page": "www.bedbathandbeyond.com"}, "user": {"id": "5c999e81-c098-4c2b-8da1-b4d844a103b6"}, "device": {"ip": 17588}}
+{"imp": [], "site": {"page": "www.yahoo.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "5a31ec8c-7565-46df-b69c-be92f0c40a09"}, {"source": "id5-sync.com", "uids": "139e2d28-3680-4e14-bb48-28321dfa620a"}, {"source": "liveramp.com", "uids": "9b29c2fc-30f4-4f1a-8f6e-7b754be837f0"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.wikipedia.org"}, "user": {"id": {"zip": "80226", "lat": 39.7946, "lon": -105.0972, "city": "LAKEWOOD", "country": "USA", "region": "CO", "metro": "303", "type": 2}}, "device": {}}
+{"imp": [], "site": {"page": "www.nike.com"}, "user": {"id": "aff975ea-bdf6-465a-86ea-1450a033332a"}, "device": {}}
+{"imp": [], "site": {"page": "www.orbitz.com"}, "user": {"id": "54d382db-6687-40d4-a844-491dad99a956"}, "device": {}}
+{"imp": [], "site": {"page": "www.imdb.com"}, "user": {"id": "c91a047c-749a-43d8-9962-46ee9867be20"}, "device": {}}
+{"imp": [], "site": {"page": "www.etsy.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "4bdfed1a-edfd-42ba-bc39-c1863330a9ea"}, {"source": "liveramp.com", "uids": "94da368a-5cca-46e0-a383-df2961b6c4e4"}]}}, "device": {"ip": 22399}}
+{"imp": [], "site": {"page": "www.hotels.com"}, "user": {"id": {"zip": "80226", "lat": 39.61, "lon": -105.08, "city": "LAKEWOOD", "country": "USA", "region": "CO", "metro": "303", "type": 2}}, "device": {}}
+{"imp": [], "site": {"page": "www.travelocity.com"}, "user": {}, "device": {"ip": 13225}}
+{"imp": [], "site": {"page": "www.ikea.com"}, "user": {"id": "4828a71e-702e-4617-9861-431a2b8f8d0f"}, "device": {}}
+{"imp": [], "site": {"page": "www.tmall.com"}, "user": {"id": "1064823663"}, "device": {"ip": 2195}}
+{"imp": [], "site": {"page": "www.gnc.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "cd8174e0-f782-465f-be0a-0018b635dfa9"}, {"source": "adserver.org", "uids": "e7b4d71c-46cd-49a4-bbc6-b8bad7e2fe8d"}, {"source": "id5-sync.com", "uids": "c6958658-7110-4afb-9280-bd8d7011a0f2"}, {"source": "liveramp.com", "uids": "bb033bf5-357b-4b0f-8e1e-75988a9cb0b8"}]}}, "device": {"ip": 2645}}
+{"imp": [], "site": {"page": "www.bestbuy.com"}, "user": {"ext": {"eids": [{"source": "id5-sync.com", "uids": "1311c563-4b5b-46bb-b650-b81e76fd0491"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.pinterest.com"}, "user": {}, "device": {"ip": 743}}
+{"imp": [], "site": {"page": "www.dropbox.com"}, "user": {"id": "193cb698-53c2-4fe7-b9a6-0be2a7a212a7"}, "device": {}}
+{"imp": [], "site": {"page": "www.microsoft.com"}, "user": {"id": {"lat": 39.62, "lon": -105.1, "country": "USA", "type": 2}}, "device": {"ip": 8127}}
+{"imp": [], "site": {"page": "www.kohls.com"}, "user": {"id": "fc6756e9-9ef7-4747-926a-50caa1d713fc"}, "device": {"ip": 14594}}
+{"imp": [], "site": {"page": "www.mail.ru"}, "user": {"ext": {"eids": [{"source": "liveramp.com", "uids": "f8aeee62-89ac-4036-befe-f899e376e82d"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.office.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "2a089283-9b2f-4b33-a9e2-4aa7e4472ed4"}, {"source": "adserver.org", "uids": "9370ee78-7265-44d6-95af-1dddc802cb9d"}, {"source": "id5-sync.com", "uids": "57334e50-9dca-40bb-8461-2fe1187621b2"}]}}, "device": {"ip": 19524}}
+{"imp": [], "site": {"page": "www.academy.com"}, "user": {"ext": {"eids": [{"source": "liveramp.com", "uids": "2e11dfb9-3553-4173-9242-bc9015831c26"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.nike.com"}, "user": {"id": "e396f935-d619-4502-bab7-d9235efd92fc"}, "device": {}}
+{"imp": [], "site": {"page": "www.bing.com"}, "user": {"id": "e433442d-718d-4c51-9d5a-ca13c3a1ba36"}, "device": {"ip": 14629}}
+{"imp": [], "site": {"page": "www.rei.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.blogger.com"}, "user": {"ext": {"eids": [{"source": "liveramp.com", "uids": "33d0bf55-8a94-4328-82eb-38a08ac65961"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.google.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.booking.com"}, "user": {"id": "721895be-6156-4ef4-bb67-da39883be3bc"}, "device": {}}
+{"imp": [], "site": {"page": "www.travelocity.com"}, "user": {}, "device": {"ip": 12816}}
+{"imp": [], "site": {"page": "www.dickssportinggoods.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "47afcf07-249e-464e-8f7e-f6978be2695d"}, {"source": "liveramp.com", "uids": "2b87cbc1-9d69-4f03-a4e6-56b0cef17e2e"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.airbnb.com"}, "user": {"ext": {"eids": []}}, "device": {"ip": 12101}}
+{"imp": [], "site": {"page": "www.overstock.com"}, "user": {"id": "99e78838-a76a-453f-a0ad-c42f6969ccf6"}, "device": {}}
+{"imp": [], "site": {"page": "www.walmart.com"}, "user": {"ext": {"eids": [{"source": "liveramp.com", "uids": "351c12fa-0441-4eb1-9538-9928c52cfea2"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.wikipedia.org"}, "user": {"id": "c4a37f47-7b44-4b15-9bfb-83ebe6b0c40e"}, "device": {"ip": 22063}}
+{"imp": [], "site": {"page": "www.asics.com"}, "user": {"id": {"lat": 39.7, "lon": -105.09, "country": "USA", "type": 2}}, "device": {"ip": 9664}}
+{"imp": [], "site": {"page": "www.tumblr.com"}, "user": {}, "device": {"ip": 22515}}
+{"imp": [], "site": {"page": "www.skype.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.jenny-craig.com"}, "user": {"id": "a5feec7f-9cc3-4e8a-b409-4fa82b688104"}, "device": {}}
+{"imp": [], "site": {"page": "www.vans.com"}, "user": {"id": "b5370adb-0655-4698-9f61-ba77973ca53c"}, "device": {"ip": 12890}}
+{"imp": [], "site": {"page": "www.bedbathandbeyond.com"}, "user": {"id": "e2770738-1be0-434b-9480-4d6934efb493"}, "device": {"ip": 5313}}
+{"imp": [], "site": {"page": "www.columbia.com"}, "user": {"id": "62200256-914e-4867-94a7-db2a75a256df"}, "device": {"ip": 5880}}
+{"imp": [], "site": {"page": "www.travelocity.com"}, "user": {"id": "7f78ffd9-422f-4c0e-95e3-34fb444eca1e"}, "device": {}}
+{"imp": [], "site": {"page": "www.kayak.com"}, "user": {"id": "dc62f8b1-910f-4e6f-bdfb-397695b5fc4f"}, "device": {}}
+{"imp": [], "site": {"page": "www.travelocity.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.sportsauthority.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "a7b217fc-5a1e-4aef-baef-05d67149854b"}, {"source": "id5-sync.com", "uids": "efa0715d-1084-4d00-9627-9044ac314430"}]}}, "device": {"ip": 21811}}
+{"imp": [], "site": {"page": "www.paypal.com"}, "user": {"id": {"lat": 39.76, "lon": -105.09, "country": "USA", "type": 2}}, "device": {}}
+{"imp": [], "site": {"page": "www.oldnavy.com"}, "user": {"id": "bf36c53f-9b44-407f-9d76-215bc4450bf6"}, "device": {}}
+{"imp": [], "site": {"page": "www.walmart.com"}, "user": {}, "device": {"ip": 7245}}
+{"imp": [], "site": {"page": "www.etsy.com"}, "user": {"id": "47d5418b-5b0b-4152-818e-e6106353055a"}, "device": {}}
+{"imp": [], "site": {"page": "www.overstock.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.target.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "ce78d964-a9be-48ec-8e56-3fe76fec07e4"}, {"source": "id5-sync.com", "uids": "12e23b5d-1c82-4944-8f8f-d654b6937a6a"}, {"source": "liveramp.com", "uids": "352db879-82b1-4232-9588-726096c166f5"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.jenny-craig.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.patagonia.com"}, "user": {"ext": {"eids": [{"source": "id5-sync.com", "uids": "f2c15451-ee34-4c39-aa10-77fcd6232a58"}, {"source": "liveramp.com", "uids": "099cc836-c172-40bf-931b-014b51665033"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.homeaway.com"}, "user": {}, "device": {"ip": 18938}}
+{"imp": [], "site": {"page": "www.orbitz.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "3a355a02-097f-43fb-86b0-7e76efa8835c"}, {"source": "adserver.org", "uids": "0fc3f9fe-43fb-483f-9c5d-a65905d7eb69"}]}}, "device": {"ip": 19392}}
+{"imp": [], "site": {"page": "www.basspro.com"}, "user": {"id": "b83c545b-6b5d-4dd9-8cbb-1797ccf60032"}, "device": {"ip": 4123}}
+{"imp": [], "site": {"page": "www.dropbox.com"}, "user": {}, "device": {"ip": 13307}}
+{"imp": [], "site": {"page": "www.netflix.com"}, "user": {}, "device": {"ip": 15435}}
+{"imp": [], "site": {"page": "www.github.com"}, "user": {"id": "e952bdfc-6eb1-4a57-ae0a-ef0583a88ebd"}, "device": {}}
+{"imp": [], "site": {"page": "www.twitter.com"}, "user": {"id": "cb8a483c-03e3-4013-8868-e040b7e2d4e1"}, "device": {"ip": 11381}}
+{"imp": [], "site": {"page": "www.timberland.com"}, "user": {"id": "b6200f98-3c17-4f17-992f-74d5327d140a"}, "device": {}}
+{"imp": [], "site": {"page": "www.blogger.com"}, "user": {"id": "a2da8dbf-873e-471a-ae2f-84f90c01e453"}, "device": {}}
+{"imp": [], "site": {"page": "www.northface.com"}, "user": {"id": "85bb41a5-2eac-46f8-a821-8008ef995e60"}, "device": {}}
+{"imp": [], "site": {"page": "www.salesforce.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.slack.com"}, "user": {"id": "41deb40e-db9d-4c9b-83d8-8c33004f4a0e"}, "device": {}}
+{"imp": [], "site": {"page": "www.jenny-craig.com"}, "user": {}, "device": {"ip": 17736}}
+{"imp": [], "site": {"page": "www.office.com"}, "user": {"id": "9c18e2ef-4f27-490f-ae01-1ada273ff42a"}, "device": {}}
+{"imp": [], "site": {"page": "www.kohls.com"}, "user": {"id": "135095d6-ae0e-48ec-904b-f0aa7ec3598d"}, "device": {"ip": 5388}}
+{"imp": [], "site": {"page": "www.google.com"}, "user": {"id": "8750514614"}, "device": {"ip": 16514}}
+{"imp": [], "site": {"page": "www.mail.ru"}, "user": {"id": "5828b311-06ec-4883-8b61-77913aabf36a"}, "device": {}}
+{"imp": [], "site": {"page": "www.columbia.com"}, "user": {"ext": {"eids": [{"source": "liveramp.com", "uids": "08e9995d-1003-418a-a2ea-e4f700b83778"}]}}, "device": {"ip": 18785}}
+{"imp": [], "site": {"page": "www.walmart.com"}, "user": {"id": "2738964987"}, "device": {}}
+{"imp": [], "site": {"page": "www.yahoo.com"}, "user": {"id": "6f0e6fc3-047b-485d-9cf4-20c0004c9a2f"}, "device": {}}
+{"imp": [], "site": {"page": "www.bestbuy.com"}, "user": {"id": "51d9260a-bb49-49a1-a114-1485dee89b3d"}, "device": {}}
+{"imp": [], "site": {"page": "www.sportsauthority.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "1ac90e9f-9325-4bc7-8126-45714c36ca19"}, {"source": "id5-sync.com", "uids": "4d851f24-7077-497f-9a0a-12466c1baf0c"}, {"source": "liveramp.com", "uids": "fa95f48f-6bb7-4793-8aea-fc2c6f6d2fd6"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.etsy.com"}, "user": {}, "device": {"ip": 5966}}
+{"imp": [], "site": {"page": "www.trivago.com"}, "user": {"id": "fd3083cb-ee4c-43cd-ac99-56c15a2ae082"}, "device": {"ip": 7335}}
+{"imp": [], "site": {"page": "www.airbnb.com"}, "user": {}, "device": {"ip": 19688}}
+{"imp": [], "site": {"page": "www.homedepot.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "6c90f6c6-49bf-428b-a6c7-9351396e1a9c"}]}}, "device": {"ip": 60}}
+{"imp": [], "site": {"page": "www.hm.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.basspro.com"}, "user": {}, "device": {"ip": 5794}}
+{"imp": [], "site": {"page": "www.imdb.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "fb9d2606-8b43-4623-93df-a2dfb68f3111"}, {"source": "id5-sync.com", "uids": "2657109c-0372-4acf-871f-8896c33a4cb5"}, {"source": "liveramp.com", "uids": "361c3b4f-b772-45b4-b72d-16ab6347bb45"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.nutrisystem.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "a925c957-37f7-4924-8913-3309fb216ab9"}, {"source": "id5-sync.com", "uids": "e891a44a-e3f0-4931-a0fb-3d49848da9f5"}, {"source": "liveramp.com", "uids": "9f19d54d-20fc-4a6c-bbb8-ff2d73f06118"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.kayak.com"}, "user": {"id": "39f37e70-8925-4206-b0f3-bee4bd7ef597"}, "device": {"ip": 9854}}
+{"imp": [], "site": {"page": "www.google.com"}, "user": {"id": "a813f91a-009e-474e-b64b-28f0f4c41c35"}, "device": {"ip": 15955}}
+{"imp": [], "site": {"page": "www.twitter.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "148ba8f0-5fa0-4f76-8576-096c161a09aa"}, {"source": "id5-sync.com", "uids": "90c74f0e-11eb-4fb4-bfb3-b31f3d0e906d"}, {"source": "liveramp.com", "uids": "f7391f76-cd4d-4976-ae6c-c278df909d41"}]}}, "device": {"ip": 22873}}
+{"imp": [], "site": {"page": "www.sportsauthority.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "0b203e33-382c-4f0e-9b08-3336bc6e53c6"}, {"source": "adserver.org", "uids": "9c4bc7f9-c10c-4dc1-894a-70b8b17995b2"}]}}, "device": {"ip": 2164}}
+{"imp": [], "site": {"page": "www.banana-republic.com"}, "user": {"id": "bb1f7406-4634-417f-aedd-6cbdfa463e79"}, "device": {"ip": 1682}}
+{"imp": [], "site": {"page": "www.expedia.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.travelocity.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "27c1cd7a-c3e6-4a78-8a3b-6109cb7d7132"}, {"source": "adserver.org", "uids": "66397d82-4ed7-491e-b880-1cf430625eb5"}]}}, "device": {"ip": 2811}}
+{"imp": [], "site": {"page": "www.imgur.com"}, "user": {"id": "0fc2b16c-76a6-42f4-826e-bb9fc6df734d"}, "device": {}}
+{"imp": [], "site": {"page": "www.medium.com"}, "user": {"ext": {"eids": [{"source": "id5-sync.com", "uids": "04b6c3c5-3940-4f2f-bdbb-1ef3c13918c5"}]}}, "device": {"ip": 21376}}
+{"imp": [], "site": {"page": "www.aliexpress.com"}, "user": {"id": "a70a5897-fe03-4455-bd26-42384107f579"}, "device": {}}
+{"imp": [], "site": {"page": "www.asics.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "87628b88-fd92-4aa7-9475-57f908bd5be5"}, {"source": "id5-sync.com", "uids": "4a214988-7582-4362-b788-a3d16696a430"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.etsy.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "57b02a19-1da0-441e-8145-56b0211bc321"}, {"source": "liveramp.com", "uids": "447160c7-3dac-406f-b33f-5605bda6d8e6"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.instagram.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "23d30792-766e-4b1e-ae03-3973e56f6088"}]}}, "device": {"ip": 5241}}
+{"imp": [], "site": {"page": "www.blogger.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "84201bbf-54d0-4843-945b-2a9eb0da0712"}]}}, "device": {"ip": 14584}}
+{"imp": [], "site": {"page": "www.ebay.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "836a33be-4b54-446a-bbc5-6c38797e60ae"}]}}, "device": {"ip": 19486}}
+{"imp": [], "site": {"page": "www.soundcloud.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "3324413f-4cc2-4e39-8d9c-6b02a8a62527"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.bestbuy.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "c25e5989-7622-4f6a-a7f4-801a652302b4"}, {"source": "id5-sync.com", "uids": "faaa09e5-fbad-4bc0-af41-02104deaa913"}, {"source": "liveramp.com", "uids": "714d25cf-7bbe-44d1-b478-76807c127dad"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.apple.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "915eda24-3d9c-4548-98b2-ba183465b74f"}, {"source": "id5-sync.com", "uids": "d6bbb81c-424d-4d70-8b71-07ef56a3c3f3"}, {"source": "liveramp.com", "uids": "28f19759-de8c-4b2b-a81b-e56ef745350a"}]}}, "device": {"ip": 6800}}
+{"imp": [], "site": {"page": "www.twitch.tv"}, "user": {"id": "1b20a112-fcc9-4cf0-b363-b1c66b4bb5c8"}, "device": {}}
+{"imp": [], "site": {"page": "www.travelocity.com"}, "user": {"id": "6dd77606-5a5f-41f3-af4a-8bc584ead55d"}, "device": {"ip": 16722}}
+{"imp": [], "site": {"page": "www.airbnb.com"}, "user": {}, "device": {"ip": 3527}}
+{"imp": [], "site": {"page": "www.gnc.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.northface.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "a2a55175-2250-464c-a3e2-f8b2248c8197"}, {"source": "adserver.org", "uids": "2054e837-5498-4051-8fb5-fbab6029023a"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.reddit.com"}, "user": {}, "device": {"ip": 24542}}
+{"imp": [], "site": {"page": "www.bedbathandbeyond.com"}, "user": {"id": "752b164b-425b-431a-8808-d6365333a231"}, "device": {"ip": 9097}}
+{"imp": [], "site": {"page": "www.cabelas.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "da305d61-ef81-494f-a0fa-a77967d334a2"}, {"source": "id5-sync.com", "uids": "642da581-8352-4243-a9ab-8db4d0844762"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.jenny-craig.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.instagram.com"}, "user": {"id": "6e06d5d1-fb43-40f5-8717-ba2e53d79535"}, "device": {"ip": 7206}}
+{"imp": [], "site": {"page": "www.zara.com"}, "user": {"id": "029780ab-271a-4ccd-b65c-5c42385d7121"}, "device": {}}
+{"imp": [], "site": {"page": "www.oldnavy.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.adobe.com"}, "user": {"id": "0674f8c9-81c1-4698-86f1-d7e1187b6a6c"}, "device": {}}
+{"imp": [], "site": {"page": "www.facebook.com"}, "user": {}, "device": {"ip": 12522}}
+{"imp": [], "site": {"page": "www.walmart.com"}, "user": {"id": "46b7d489-43c4-4a1b-a7d6-20b83be3a498"}, "device": {"ip": 15562}}
+{"imp": [], "site": {"page": "www.tmall.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "9a764891-4bcf-44bb-a712-0aba78f2cf20"}, {"source": "adserver.org", "uids": "79e082ab-869e-43ad-8c20-41bffddcdb23"}, {"source": "id5-sync.com", "uids": "2a765e70-a5ea-4f53-ac76-b2ea133b5494"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.asics.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "f99c6a33-9c5b-4062-a153-d4d26b032864"}, {"source": "liveramp.com", "uids": "fb2b95a5-9c76-41dc-aab5-37e6bfb46935"}]}}, "device": {"ip": 21539}}
+{"imp": [], "site": {"page": "www.vans.com"}, "user": {"id": "fe030c2a-061d-4c11-9e1c-3196d27ff73a"}, "device": {"ip": 625}}
+{"imp": [], "site": {"page": "www.vitaminshoppe.com"}, "user": {"id": "4587efbf-bf12-4338-a32d-44d55e029085"}, "device": {}}
+{"imp": [], "site": {"page": "www.nutrisystem.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "09910d2c-c172-41a4-b413-02c5655a31f9"}, {"source": "id5-sync.com", "uids": "f6807439-9184-4a6c-8127-adc685d0564a"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.jd.com"}, "user": {"id": "5c41df70-0bec-43fd-a97e-d690272aea43"}, "device": {"ip": 4918}}
+{"imp": [], "site": {"page": "www.wayfair.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "ce10baeb-d94a-4605-9eb1-55822def7da7"}, {"source": "liveramp.com", "uids": "7a269aa2-1e7e-4998-ae44-f558576fdaf8"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.skype.com"}, "user": {"id": "2880058337"}, "device": {}}
+{"imp": [], "site": {"page": "www.weibo.com"}, "user": {"id": "321e8d95-3e71-4bc5-881f-3394106a807f"}, "device": {"ip": 10986}}
