@@ -1,5 +1,6 @@
 # This script simulates a single zip code's bid stream data
-
+import matplotlib.pyplot as plt
+import numpy as np
 import time, requests, json
 from population import Population
 
@@ -28,6 +29,13 @@ if __name__ == "__main__":
             fout.write(json.dumps(event) + "\n")
         #fire(event)
         
+        ## plot ##
+        map_img = plt.imread('map.png')
+        plt.imshow(map_img)
+        x,y = [100, 200], [100, 200]
+        plt.scatter(x, y, color='red', marker='x')
+        plt.show()
+
         elapsed = int(time.time() * 1000) - start
         if elapsed < N_millisec:
             print('sleeping for %f ms' % ((N_millisec - elapsed)/1000.0))

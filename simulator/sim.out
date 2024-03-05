@@ -2096,3 +2096,6 @@
 {"imp": [], "site": {"page": "www.wayfair.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "ce10baeb-d94a-4605-9eb1-55822def7da7"}, {"source": "liveramp.com", "uids": "7a269aa2-1e7e-4998-ae44-f558576fdaf8"}]}}, "device": {}}
 {"imp": [], "site": {"page": "www.skype.com"}, "user": {"id": "2880058337"}, "device": {}}
 {"imp": [], "site": {"page": "www.weibo.com"}, "user": {"id": "321e8d95-3e71-4bc5-881f-3394106a807f"}, "device": {"ip": 10986}}
+{"imp": [], "site": {"page": "www.microsoft.com"}, "user": {"id": "434ed5c5-6b42-42f8-9454-f7ecf10cf0f4"}, "device": {}}
+{"imp": [], "site": {"page": "www.macys.com"}, "user": {"id": "8fc87b4b-8b7e-4581-8f0c-7b0487a39ea8"}, "device": {}}
+{"imp": [], "site": {"page": "www.booking.com"}, "user": {"id": "8d22b8a2-2911-4a51-9496-ef3596062ba0"}, "device": {"ip": 14114}}
