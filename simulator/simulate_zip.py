@@ -26,6 +26,10 @@ if __name__ == "__main__":
         start = int(time.time() * 1000)  #ms
 
         event = population.generate_event()
+        
+        resp = api.query(event)
+
+
         print(event)
         with open('sim.out', 'a') as fout:
             fout.write(json.dumps(event) + "\n")

@@ -2,14 +2,15 @@ import random, json, redis
 import config
 
 FEATURE_D = 8
-DB_SIZE = 500
-
+DB_SIZE = 1000
+THRESH = 0.7
+VERY_LARGE = 100
 redis = redis.StrictRedis(charset="utf-8", decode_responses=True)
 
 class database:
     def __init__(self):
         self.candles = [random.choice([j for j in range(DB_SIZE)]) for i in range(12)]
-        self.stopping_criteria = 0.5  # for recursive descent stopping
+        self.stopping_criteria = THRESH  # for recursive descent stopping
 
     def get_salt(self, key):
         return redis.hget(config.REDHASH_SALTS, key)
@@ -31,32 +32,32 @@ class database:
         #print(event, db_event)
         return math.sqrt(sum([(event.get("features")[i] - db_event.get("features")[i])**2 for i in range(FEATURE_D)]))
 
-    def recursive_descent(self, event, db_events_keys):
-        #print(event, db_events_keys)
+    def recursive_descent(self, event, db_events_keys, best_distance):
         if not db_events_keys: 
-            print('here')
+            print('event keys not found')
             return None  # Base case
-        print(db_events_keys)
-        #print(db_events_keys)
         db_events = [self.get(str(k)) for k in db_events_keys]
-        #print(db_events)
         if not db_events:
-            print('here1')
+            print('no input events')
             return None  # Safety check
 
         distances = [(self.distance_function(event, db_event), db_event) for db_event in db_events]
         distances.sort(key=lambda x: x[0])
         best_match = distances[0][1]  # closest point
+        new_best_distance = distances[0][0]  # closest point
+        print(distances[0][0])
 
-        if distances[0][0] < self.stopping_criteria + 0.0 : # inject noise here
-            print('made it out')
+        if new_best_distance < self.stopping_criteria + 0.0 : # inject noise here
+            print('made it out under stopping criteria')
             return best_match  # Stopping condition met
+        elif new_best_distance > best_distance:
+            print('made it out under best effort search criteria')
+            return event 
         else:
-            print('made it')
-            return self.recursive_descent(event, best_match.get("candles", []))
+            return self.recursive_descent(event, best_match.get("candles", []), new_best_distance)
 
     def get_by_event(self, event):
-        _profile = self.recursive_descent(event, self.candles)
+        _profile = self.recursive_descent(event, self.candles, VERY_LARGE)
         return _profile
 
 def validate(req):
