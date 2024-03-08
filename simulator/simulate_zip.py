@@ -1,6 +1,6 @@
 # This script simulates a single zip code's bid stream data
 import matplotlib.pyplot as plt
-plt.ion()
+#plt.ion()
 import numpy as np
 import time, requests, json
 from population import Population
@@ -27,8 +27,7 @@ if __name__ == "__main__":
 
         event = population.generate_event()
         
-        resp = api.query(event)
-
+        #resp = api.query(event)
 
         print(event)
         with open('sim.out', 'a') as fout:
@@ -41,14 +40,15 @@ if __name__ == "__main__":
         plt.figure()  # Create a new figure for each iteration
         plt.imshow(map_img)
         
-        #x, y = [100, 200], [100, 200]
-        xs.append(event.lat)
-        ys.append(event.lon)
+        xs, ys = [100, 200], [100, 200]
+        #xs.append(event.lat)
+        #ys.append(event.lon)
        
         # initially all red, eventually all green
         plt.scatter(xs, ys, color='red', marker='x')
         plt.draw()  # Update the plot
-        plt.pause(0.001)
+        plt.show()
+        #plt.pause(0.001)
 
 
         elapsed = int(time.time() * 1000) - start
