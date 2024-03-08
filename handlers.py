@@ -37,6 +37,9 @@ class database:
         import math
         return math.sqrt(sum([(event.get("features")[i] - db_event.get("features")[i])**2 for i in range(FEATURE_D)]))
 
+        # to handle JSON-JSON pairs, eventually we use ML distance metric
+        # for demo, use deterministic matching on ids
+
     def recursive_descent(self, event, db_events_keys, last_distances):
         if not db_events_keys: 
             print('event keys not found')
