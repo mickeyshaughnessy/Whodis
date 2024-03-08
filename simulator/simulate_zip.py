@@ -20,6 +20,9 @@ if __name__ == "__main__":
     print(N_millisec)
     population = Population(_zip="80226", N_HOUSEHOLD=25000)
 
+    map_img = plt.imread('map.png')
+    plt.figure()  # Create a new figure for each iteration
+    
     # Run a loop:
     while True:
 
@@ -35,11 +38,9 @@ if __name__ == "__main__":
         #fire(event)
         
         ## plot ##
-        
-        map_img = plt.imread('map.png')
-        plt.figure()  # Create a new figure for each iteration
         plt.imshow(map_img)
-        
+
+        ##################
         xs, ys = [100, 200], [100, 200]
         #xs.append(event.lat)
         #ys.append(event.lon)
