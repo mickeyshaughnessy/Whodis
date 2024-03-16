@@ -74,6 +74,12 @@ class Database:
 
         return _profile
 
+    def insert_event(self, event):
+        # this needs to be working properly, with key and value determined
+        reslv = self.get_by_event(self, event)
+        key = reslv.get("id")
+        self.set(self, reslv) 
+
 if __name__ == "__main__":
     # test the db get functionality here
     redis.delete("REDHASH_TEST")
