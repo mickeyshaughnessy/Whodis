@@ -45,7 +45,7 @@ class User():
         self.canonical_id = str(uuid.uuid4())
 
         self.ids = {
-                "base1" : str(random.randint(0,1E10)),
+                "base1" : str(random.randint(0,int(1E10))),
                 "hash1" : str(uuid.uuid4()), 
                 "hash2" : str(uuid.uuid4()),
                 "geo1" : self.household.get_geo()

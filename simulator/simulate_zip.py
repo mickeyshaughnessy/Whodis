@@ -59,6 +59,7 @@ if __name__ == "__main__":
         #fire(event)
         
         event = json.loads(event)
+        print(event)
         ## plot ##
         plt.imshow(map_img)
 
