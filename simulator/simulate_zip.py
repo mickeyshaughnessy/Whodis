@@ -49,15 +49,16 @@ if __name__ == "__main__":
 
         start = int(time.time() * 1000)  #ms
         event = population.generate_event()
-        r = api.query(event)
-        resp = r.json()
-        correct = resp.get("canonical_id") == event.get("canonical_id")
+        #r = api.query(event)
+        #resp = r.json()
+        #correct = resp.get("canonical_id") == event.get("canonical_id")
 
-        print(event, correct)
+        #print(event, correct)
         with open('sim.out', 'a') as fout:
             fout.write(json.dumps(event) + "\n")
         #fire(event)
         
+        event = json.loads(event)
         ## plot ##
         plt.imshow(map_img)
 
