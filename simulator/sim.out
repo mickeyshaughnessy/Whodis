@@ -2262,3 +2262,62 @@
 {"imp": [], "site": {"page": "www.expedia.com"}, "user": {"id": "dc79f254-59f3-47d5-b128-25c117961557"}, "device": {"ip": 19428}}
 {"imp": [], "site": {"page": "www.lululemon.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "875526bb-c6f8-49f1-80dd-a2b3edde13d1"}, {"source": "id5-sync.com", "uids": "55c6268b-3893-481a-be9c-79bf6bdeb3df"}]}}, "device": {}}
 {"imp": [], "site": {"page": "www.patagonia.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "acce47b0-857f-4ce9-a2f1-d370fbc38913"}, {"source": "id5-sync.com", "uids": "4b79c3ea-891c-45f4-a993-13c588351c7e"}, {"source": "liveramp.com", "uids": "8d849199-f282-4a89-965b-92f43e2d57fc"}]}}, "device": {"ip": 9704}}
+{"imp": [], "site": {"page": "www.target.com"}, "user": {"id": "9a544989-ad56-4bed-9cbc-e08db01ced50"}, "device": {}}
+{"imp": [], "site": {"page": "www.jcpenney.com"}, "user": {"ext": {"eids": [{"source": "id5-sync.com", "uids": "a5a106a5-1b1e-46e3-8731-56ceeabdb5a1"}, {"source": "liveramp.com", "uids": "bf5c5f20-a769-48f5-bec2-4cce9d9f589d"}]}}, "device": {}}
+{"imp": [], "site": {"page": "www.kayak.com"}, "user": {"id": "9c1552c3-6008-4f6b-81f9-593b8c63fb1c"}, "device": {"ip": 12482}}
+{"imp": [], "site": {"page": "www.macys.com"}, "user": {"id": "6823550420"}, "device": {"ip": 19569}}
+{"imp": [], "site": {"page": "www.vans.com"}, "user": {}, "device": {"ip": 14096}}
+{"imp": [], "site": {"page": "www.trivago.com"}, "user": {"id": "d35ad1f3-d823-4a11-bad0-88d0e35d9814"}, "device": {"ip": 2839}}
+{"imp": [], "site": {"page": "www.tmall.com"}, "user": {"id": "5567b6a2-89a6-40e5-a902-f282ea970148"}, "device": {"ip": 14097}}
+{"imp": [], "site": {"page": "www.nutrisystem.com"}, "user": {"id": "e581c684-8382-4a42-9009-b812b8ecf484"}, "device": {}}
+{"imp": [], "site": {"page": "www.skechers.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "f93831e6-41dd-454f-88d3-97e4d55cf941"}, {"source": "liveramp.com", "uids": "a70393ea-b8b8-4e36-aaf7-67d8a677024d"}]}}, "device": {"ip": 2878}}
+{"imp": [], "site": {"page": "www.spotify.com"}, "user": {}, "device": {}}
+{"imp": [], "site": {"page": "www.craigslist.org"}, "user": {"id": {"lat": 39.79, "lon": -105.09, "country": "USA", "type": 2}}, "device": {"ip": 13506}}
+{"imp": [], "site": {"page": "www.soundcloud.com"}, "user": {"id": "838e7c37-4cc0-4592-9ca4-040f152df8cb"}, "device": {}}
+{"imp": [], "site": {"page": "www.lululemon.com"}, "user": {}, "device": {"ip": 20620}}
+{"lat": 39.74515361994419, "lon": -105.08829003414316, "imp": [], "site": {"page": "www.vans.com"}, "user": {"id": "1dbce974-7bd5-4cd7-bed6-238dc3df0b88"}, "device": {}}
+{"lat": 39.686289700226375, "lon": -105.085133095016, "imp": [], "site": {"page": "www.ebay.com"}, "user": {}, "device": {}}
+{"lat": 39.736018645630665, "lon": -105.08574043932728, "imp": [], "site": {"page": "www.twitch.tv"}, "user": {"ext": {"eids": [{"source": "id5-sync.com", "uids": "22d2b104-77b9-4f6d-8324-e7a6238feac3"}, {"source": "liveramp.com", "uids": "00d473a7-d9ab-4b9f-a507-dd0a4cdac661"}]}}, "device": {"ip": 24889}}
+{"lat": 39.651431347940836, "lon": -105.08281170983706, "imp": [], "site": {"page": "www.lululemon.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "c84aaab5-0e6c-4180-84a9-3513e09017b4"}]}}, "device": {}}
+{"lat": 39.73471712880406, "lon": -105.09033030088987, "imp": [], "site": {"page": "www.american-eagle.com"}, "user": {"id": "8d07d651-3184-40a5-8b86-5de919c76cb3"}, "device": {}}
+{"lat": 39.74163445960724, "lon": -105.09593581751697, "imp": [], "site": {"page": "www.aliexpress.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "8670bfd8-2c87-4638-b678-766a24cd9aec"}]}}, "device": {"ip": 23247}}
+{"lat": 39.612475158989504, "lon": -105.08485633978377, "imp": [], "site": {"page": "www.rei.com"}, "user": {"id": "99d269ba-b8a5-47e2-a97f-8a9e9f6d6e1f"}, "device": {"ip": 24615}}
+{"lat": 39.75193950031651, "lon": -105.09473630295848, "imp": [], "site": {"page": "www.forever21.com"}, "user": {"id": "4da170f3-676d-4320-b015-1b26d33d59cb"}, "device": {"ip": 1679}}
+{"lat": 39.75729538685396, "lon": -105.0968472711682, "imp": [], "site": {"page": "www.tmall.com"}, "user": {}, "device": {}}
+{"lat": 39.67660555960246, "lon": -105.0897516451928, "imp": [], "site": {"page": "www.quora.com"}, "user": {}, "device": {"ip": 18686}}
+{"lat": 39.66223495070733, "lon": -105.08665490534868, "imp": [], "site": {"page": "www.nutrisystem.com"}, "user": {"id": {"lat": 39.66, "lon": -105.09, "country": "USA", "type": 2}}, "device": {"ip": 7596}}
+{"lat": 39.798137656146864, "lon": -105.08310463918501, "imp": [], "site": {"page": "www.spotify.com"}, "user": {}, "device": {}}
+{"lat": 39.76742125911121, "lon": -105.09691931439565, "imp": [], "site": {"page": "www.hotels.com"}, "user": {"id": "ff6af76c-5bee-4693-9a9c-fa2ddb3b9661"}, "device": {"ip": 2084}}
+{"lat": 39.753295652732, "lon": -105.08007442562722, "imp": [], "site": {"page": "www.soundcloud.com"}, "user": {"id": "5871cc33-643e-4fe0-9308-f1790e67b9e7"}, "device": {"ip": 22924}}
+{"lat": 39.63800090924415, "lon": -105.0972492854733, "imp": [], "site": {"page": "www.forever21.com"}, "user": {"id": "313349d5-b6e7-4485-8075-86a357de5bd6"}, "device": {}}
+{"lat": 39.62555558939958, "lon": -105.08246512942954, "imp": [], "site": {"page": "www.yandex.ru"}, "user": {}, "device": {}}
+{"lat": 39.63490367134373, "lon": -105.09595609684737, "imp": [], "site": {"page": "www.gnc.com"}, "user": {"id": "06b30f77-972d-482b-8ade-f242f9e44782"}, "device": {"ip": 14282}}
+{"lat": 39.7996275299332, "lon": -105.09644482186157, "imp": [], "site": {"page": "www.microsoft.com"}, "user": {"id": "992de6a5-4723-4810-aca0-20acf6bfd12c"}, "device": {}}
+{"lat": 39.667486865424735, "lon": -105.08450247682893, "imp": [], "site": {"page": "www.jenny-craig.com"}, "user": {"ext": {"eids": [{"source": "id5-sync.com", "uids": "44d47654-cd96-4385-824e-60cc479f1d79"}]}}, "device": {"ip": 15400}}
+{"lat": 39.67617019271503, "lon": -105.08280732676326, "imp": [], "site": {"page": "www.trivago.com"}, "user": {"ext": {"eids": [{"source": "id5-sync.com", "uids": "d5ea26d0-d984-48ed-b3dc-9324cc430aa1"}, {"source": "liveramp.com", "uids": "e523e67b-196d-43f1-a3a7-f07db046699a"}]}}, "device": {"ip": 14382}}
+{"lat": 39.701288317840344, "lon": -105.098479678799, "imp": [], "site": {"page": "www.expedia.com"}, "user": {"id": {"zip": "80226", "lat": 39.7, "lon": -105.1, "city": "LAKEWOOD", "country": "USA", "region": "CO", "metro": "303", "type": 2}}, "device": {}}
+{"lat": 39.686661760720845, "lon": -105.08380187926015, "imp": [], "site": {"page": "www.forever21.com"}, "user": {"id": "0c1062d4-cade-4bda-a8f9-df807e916266"}, "device": {"ip": 8517}}
+{"lat": 39.747119641695846, "lon": -105.09238340421246, "imp": [], "site": {"page": "www.facebook.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "da78105c-7f5f-44e5-a531-696d75642d5d"}, {"source": "liveramp.com", "uids": "8846cd14-fc2f-4360-a8af-4175200e1039"}]}}, "device": {"ip": 12818}}
+{"lat": 39.70362635824616, "lon": -105.08265629384573, "imp": [], "site": {"page": "www.amazon.com"}, "user": {"id": {"lat": 39.7, "lon": -105.08, "country": "USA", "type": 2}}, "device": {"ip": 1263}}
+{"lat": 39.79272432427308, "lon": -105.08773137956751, "imp": [], "site": {"page": "www.amazon.com"}, "user": {"id": "499d8e5f-126f-4b70-9ba5-39c7f8bb0e01"}, "device": {"ip": 5351}}
+{"lat": 39.782103595158304, "lon": -105.0999455493095, "imp": [], "site": {"page": "www.facebook.com"}, "user": {}, "device": {"ip": 8047}}
+{"lat": 39.77345375095239, "lon": -105.0816946653175, "imp": [], "site": {"page": "www.tripadvisor.com"}, "user": {}, "device": {}}
+{"lat": 39.68946551791987, "lon": -105.09667359525095, "imp": [], "site": {"page": "www.lululemon.com"}, "user": {}, "device": {"ip": 18545}}
+{"lat": 39.727275952834034, "lon": -105.08828487303471, "imp": [], "site": {"page": "www.gnc.com"}, "user": {"id": "c52d08b2-d66c-4522-b38f-47c53adb1ad6"}, "device": {"ip": 7076}}
+{"lat": 39.615722310109284, "lon": -105.09824819246656, "imp": [], "site": {"page": "www.gap.com"}, "user": {"id": "13f351ad-a9f0-4b04-a0ad-60341bca50e7"}, "device": {"ip": 21605}}
+{"lat": 39.637692020805, "lon": -105.09198086738235, "imp": [], "site": {"page": "www.yandex.ru"}, "user": {"id": "638384a6-8372-487c-bc4a-c823b33de691"}, "device": {"ip": 11396}}
+{"lat": 39.63170805293054, "lon": -105.08064931848372, "imp": [], "site": {"page": "www.zillow.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "8462ac38-dd47-48b8-b998-f3f44ab9e447"}, {"source": "liveramp.com", "uids": "727b22ee-aad5-4993-86df-3fd1a586cd4d"}]}}, "device": {"ip": 21553}}
+{"lat": 39.62652839550311, "lon": -105.09959101533109, "imp": [], "site": {"page": "www.bestbuy.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "ced92573-d21b-45b4-b9e9-ba9f90cd612b"}, {"source": "adserver.org", "uids": "799e7d60-501d-42fe-9648-775f6aca129a"}, {"source": "liveramp.com", "uids": "c6cddc95-5976-494f-9bcd-c7fd71338ff5"}]}}, "device": {"ip": 7663}}
+{"lat": 39.63387066632991, "lon": -105.09310062202462, "imp": [], "site": {"page": "www.twitch.tv"}, "user": {"id": "6373505459"}, "device": {"ip": 9523}}
+{"lat": 39.66555084168877, "lon": -105.09724081945026, "imp": [], "site": {"page": "www.priceline.com"}, "user": {}, "device": {"ip": 11888}}
+{"lat": 39.67867839169487, "lon": -105.09390532512903, "imp": [], "site": {"page": "www.skype.com"}, "user": {"id": "80c0f7b1-3f47-49d1-ad47-8f0754cf0052"}, "device": {"ip": 2020}}
+{"lat": 39.79198220682659, "lon": -105.09377210298138, "imp": [], "site": {"page": "www.american-eagle.com"}, "user": {"id": "8e15e40c-f4e1-47a7-a7a7-45ae8093fa83"}, "device": {"ip": 12257}}
+{"lat": 39.69600786789344, "lon": -105.09991708044059, "imp": [], "site": {"page": "www.bestbuy.com"}, "user": {"id": "4790560105"}, "device": {}}
+{"lat": 39.80830374496781, "lon": -105.08875720085099, "imp": [], "site": {"page": "www.instagram.com"}, "user": {}, "device": {"ip": 21664}}
+{"lat": 39.674109603431354, "lon": -105.0993242649447, "imp": [], "site": {"page": "www.soundcloud.com"}, "user": {"ext": {"eids": [{"source": "adserver.org", "uids": "8408c246-ce5a-4a82-b5cb-37bc211b7c10"}, {"source": "id5-sync.com", "uids": "fee7900f-32a9-4287-a6da-ca0cca3c977c"}]}}, "device": {"ip": 2163}}
+{"lat": 39.743587840039574, "lon": -105.0858843663279, "imp": [], "site": {"page": "www.google.com"}, "user": {"id": "1a037171-02d2-4b72-9cdd-8d707a00897d"}, "device": {}}
+{"lat": 39.639543307358174, "lon": -105.08679911689876, "imp": [], "site": {"page": "www.expedia.com"}, "user": {"ext": {"eids": [{"source": "pubcid.org", "uids": "4038deea-43c8-4629-8d12-eb8ae031b758"}, {"source": "liveramp.com", "uids": "63c9119a-fa12-4d50-9849-09889df71bc7"}]}}, "device": {"ip": 13428}}
+{"lat": 39.79713735302847, "lon": -105.08893822997487, "imp": [], "site": {"page": "www.jd.com"}, "user": {}, "device": {"ip": 17614}}
+{"lat": 39.63497115532253, "lon": -105.08264861156147, "imp": [], "site": {"page": "www.american-eagle.com"}, "user": {"id": {"zip": "80226", "lat": 39.63, "lon": -105.08, "city": "LAKEWOOD", "country": "USA", "region": "CO", "metro": "303", "type": 2}}, "device": {"ip": 8720}}
+{"lat": 39.65136431330199, "lon": -105.09051735349034, "imp": [], "site": {"page": "www.tumblr.com"}, "user": {"id": "ce9a1d7f-b0fe-44e0-8f45-9bec321f7f2c"}, "device": {}}
+{"lat": 39.780845555446625, "lon": -105.09107305783755, "imp": [], "site": {"page": "www.airbnb.com"}, "user": {}, "device": {"ip": 22208}}

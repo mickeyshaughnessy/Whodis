@@ -5,6 +5,14 @@ import numpy as np
 import time, requests, json
 from population import Population
 
+API_URL = "http://0.0.0.0:8050/resolve"
+class api():
+    def __init__(self):
+        api_url = API_URL
+
+    def query(self, event):
+        resp = requests.post(api_url, event)
+        return resp
 
 # bidder:
 BPORT = "8020"
@@ -12,7 +20,18 @@ bidder_url = "http://0.0.0.0:%s/bid" % BPORT
 
 def fire(event):
     resp = requests.post(bidder_url, json=event)
-    
+    return resp
+
+def tlli(lat, lon):
+    # translate_lat_lon_to_img
+    x_max, y_max = 1877, 914
+    x_min, y_min = 0,0
+    lat_max, lat_min, lon_max, lon_min = 39.81, 39.61, -105.08, -105.10
+    x = (lat - lat_min) * ((x_max - x_min) / (lat_max - lat_min))
+    y = (lon - lon_min) * ((y_max - y_min) / (lon_max - lon_min))
+    return x,y
+
+
 if __name__ == "__main__":
     # Define the frequency of events.
     N_EVENTS_PER_SECOND = 4 # (~350k events per day)
@@ -23,6 +42,7 @@ if __name__ == "__main__":
     map_img = plt.imread('map.png')
     plt.figure()  # Create a new figure for each iteration
     
+    xs, ys = [], []
     # Run a loop:
     while True:
 
@@ -30,7 +50,10 @@ if __name__ == "__main__":
 
         event = population.generate_event()
         
-        #resp = api.query(event)
+        resp = api.query(event)
+        
+        correct = resp.get("canonical_id") == event.get("canonical_id")
+
 
         print(event)
         with open('sim.out', 'a') as fout:
@@ -41,10 +64,13 @@ if __name__ == "__main__":
         plt.imshow(map_img)
 
         ##################
-        xs, ys = [100, 200], [100, 200]
-        #xs.append(event.lat)
-        #ys.append(event.lon)
-       
+        #xs, ys = [100,200], [100,200]
+        #xs.append(event.get("lat", 50))
+        #ys.append(event.get("lon", 50))
+        x, y = tlli(event["lat"], event["lon"])
+        xs.append(x)
+        ys.append(y)
+      
         # initially all red, eventually all green
         plt.scatter(xs, ys, color='red', marker='x')
         plt.draw()  # Update the plot

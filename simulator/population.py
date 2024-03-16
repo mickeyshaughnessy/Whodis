@@ -1,6 +1,8 @@
 import json, uuid, random
 import numpy as np
 
+xmax, ymax = 1877, 914
+
 with open("urls_sample.txt") as f:
     pages = f.readlines()
     pages = [p.rstrip() for p in pages]
@@ -12,6 +14,7 @@ ZIP = "80226"
 N_HOUSEHOLDS = 25000
 CITY = "LAKEWOOD"
 lat_max, lat_min, lon_max, lon_min = 39.81, 39.61, -105.08, -105.10
+
 ADDRESSES = [str(random.randint(0,999)) + " " + random.choice(streets) for _ in range(N_HOUSEHOLDS)] 
 IPS = [i for i in range(N_HOUSEHOLDS)]
 random.shuffle(IPS)
@@ -37,6 +40,10 @@ class User():
         self.N_DEVICES = random.randint(1,5)
         self.devices = [Device(self) for _ in range(self.N_DEVICES)] 
         self.pages = [random.choice(pages) for p in range(random.randint(10,20))]
+        
+        # we store the canonical_id in the db, but don't use for matching or learning.
+        self.canonical_id = uuid.uuid4()
+
         self.ids = {
                 "base1" : str(random.randint(0,1E10)),
                 "hash1" : str(uuid.uuid4()), 
@@ -102,10 +109,14 @@ class Population():
         user = random.choice(household.users)
         device = random.choice(user.devices)
 
+        event['lat'] = household.lat
+        event['lon'] = household.lon
         event['imp'] = []
         event['site'] = {'page':random.choice(user.pages)}
         event['user'] = user.make_user_payload()
         event['device'] = device.make_device_payload(location=random.choice([household, None])) 
+      
+        event['canonical_id'] = user.canonical_id
         return event
 
 if __name__ == "__main__":

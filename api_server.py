@@ -2,9 +2,8 @@
 # It has a REST API to execute queries and inject privacy:
 
 import json, redis, uuid
-import config
+import config, handlers
 from flask import Flask, jsonify, request
-from handlers import validate, db_inject, db_resolve
 redis = redis.StrictRedis()
 
 app = Flask(__name__)
@@ -20,8 +19,8 @@ def inject():
     req_id, ts = validate(req)
     if req_id:
         resp = {}
-        reslv = db_resolve(req) # get the entity
-        #resp = db_inject(reslv, req)  # inject privacy into entity
+        reslv = handlers.db_resolve(req) # get the entity
+        #resp = handlers.db_inject(reslv, req)  # inject privacy into entity
         redis.hset(config.REDHASH_INJECT_LOG, req_id, json.dumps({"ts" : ts, "request" : req})) 
         return json.dumps(resp)
     else:
@@ -31,7 +30,7 @@ def inject():
 def resolve_entity():
     req = request.get_json()
     req_id, ts = validate(req)
-    reslv = db_resolve(req)  
+    reslv = handlers.db_resolve(req)  
    
     redis.hset(config.REDHASH_QUERY_LOG, req_id, json.dumps({"ts" : ts, "request" : req, "response" : reslv})) 
     return json.dumps(reslv)
@@ -48,4 +47,4 @@ def UID2_optout():
     return json.dumps({"message" : "opted_out %s" % UID2})
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8010)
+    app.run(debug=True, host='0.0.0.0', port=8050)
