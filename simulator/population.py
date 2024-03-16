@@ -42,7 +42,7 @@ class User():
         self.pages = [random.choice(pages) for p in range(random.randint(10,20))]
         
         # we store the canonical_id in the db, but don't use for matching or learning.
-        self.canonical_id = uuid.uuid4()
+        self.canonical_id = str(uuid.uuid4())
 
         self.ids = {
                 "base1" : str(random.randint(0,1E10)),
@@ -117,7 +117,7 @@ class Population():
         event['device'] = device.make_device_payload(location=random.choice([household, None])) 
       
         event['canonical_id'] = user.canonical_id
-        return event
+        return json.dumps(event)
 
 if __name__ == "__main__":
     pop = Population(_zip=ZIP, N_HOUSEHOLD=N_HOUSEHOLDS)

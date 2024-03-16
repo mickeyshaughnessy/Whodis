@@ -1,7 +1,7 @@
 # This is the whodis api server
 # It has a REST API to execute queries and inject privacy:
 
-import json, redis, uuid
+import json, redis, uuid, time
 import config, handlers
 from flask import Flask, jsonify, request
 redis = redis.StrictRedis()
@@ -26,7 +26,7 @@ def inject():
     else:
         return json.dumps({"message" : "invalid request"})
 
-@app.route("/resolve", methods=['GET'])
+@app.route("/resolve", methods=['POST'])
 def resolve_entity():
     req = request.get_json()
     req_id, ts = validate(req)

@@ -6,12 +6,12 @@ import time, requests, json
 from population import Population
 
 API_URL = "http://0.0.0.0:8050/resolve"
-class api():
+class Api():
     def __init__(self):
-        api_url = API_URL
+        self.api_url = API_URL
 
     def query(self, event):
-        resp = requests.post(api_url, event)
+        resp = requests.post(self.api_url, json=event)
         return resp
 
 # bidder:
@@ -41,21 +41,19 @@ if __name__ == "__main__":
 
     map_img = plt.imread('map.png')
     plt.figure()  # Create a new figure for each iteration
-    
+   
+    api = Api()
     xs, ys = [], []
     # Run a loop:
     while True:
 
         start = int(time.time() * 1000)  #ms
-
         event = population.generate_event()
-        
-        resp = api.query(event)
-        
+        r = api.query(event)
+        resp = r.json()
         correct = resp.get("canonical_id") == event.get("canonical_id")
 
-
-        print(event)
+        print(event, correct)
         with open('sim.out', 'a') as fout:
             fout.write(json.dumps(event) + "\n")
         #fire(event)
@@ -64,9 +62,6 @@ if __name__ == "__main__":
         plt.imshow(map_img)
 
         ##################
-        #xs, ys = [100,200], [100,200]
-        #xs.append(event.get("lat", 50))
-        #ys.append(event.get("lon", 50))
         x, y = tlli(event["lat"], event["lon"])
         xs.append(x)
         ys.append(y)
