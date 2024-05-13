@@ -44,11 +44,11 @@ class Database:
 
     def recursive_descent(self, event, db_events_keys, last_distances):
         if not db_events_keys:
-            print('event keys not found')
+            #print('event keys not found')
             return None  # Base case
         db_events = [self.get(str(k)) for k in db_events_keys]
         if not db_events:
-            print('no input events')
+            #print('no input events')
             return None  # Safety check
 
         distances = [(self.distance_function(event, db_event), db_event) for db_event in db_events]
@@ -103,15 +103,18 @@ if __name__ == "__main__":
     #if res:
     #    print(res, query_event)
 
+    ### TEST SECTION ###
     query_events = [{"features" : [random.random() for j in range(FEATURE_D)]} for i in range(DB_SIZE)]
     for i, e in enumerate(query_events):
         # get identity of e
         print(e)
         _id = db.get_by_event(e)
         if _id == None:
-            print("got None from db.get_by_event call")
+            #print("got None from db.get_by_event call")
             e["candles"] = []
             db.set(i, e, _hash="REDHASH_TEST")
+        else:
+            print("Got %s result" % e)
         # insert e into db
         # distances hack to insert event here
         # db.get_by_event(e, resolution=0.5)
