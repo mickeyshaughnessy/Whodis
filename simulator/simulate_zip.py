@@ -56,7 +56,6 @@ if __name__ == "__main__":
         #resp = r.json()
         #correct = resp.get("canonical_id") == event.get("canonical_id")
 
-        #print(event, correct)
         with open('sim.out', 'a') as fout:
             fout.write(json.dumps(event) + "\n")
         #fire(event)
