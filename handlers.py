@@ -1,4 +1,4 @@
-import json, redis, random, math
+import json, redis, random, math, uuid
 from config import REDHASH_TEST, FEATURE_D
 
 redis_client = redis.StrictRedis(charset="utf-8", decode_responses=True)
@@ -63,9 +63,11 @@ class Database:
         return result, self.recursive_steps
 
     def insert_event(self, event):
-        reslv = self.get_by_event(event)[0]
-        key = reslv.get("id")
-        self.set(key, reslv)
+        if "id" not in event:
+            event["id"] = str(uuid.uuid4())
+        self.set(event["id"], event)
+        if event["id"] not in self.candles:
+            self.candles.append(event["id"])
 
 db = Database()
 
