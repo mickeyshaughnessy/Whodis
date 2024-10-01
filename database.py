@@ -1,9 +1,5 @@
 import redis, json, random, math, time
 
-FEATURE_D = 8
-DB_SIZE = 300000
-INITIAL_THRESH = 0.6
-CANDLE_LEN = 12
 
 redis = redis.StrictRedis(charset="utf-8", decode_responses=True)
 
@@ -15,6 +11,10 @@ class Database:
         self.stopping_criteria = self.initial_stopping_criteria
         self.recursive_steps = 0
         self.stopping_criteria_hits = 0
+        self.FEATURE_D = 8
+        self.CANDLE_LEN = 12
+        self.DB_SIZE = 300000
+        self.INITIAL_THRESH = 0.6
 
     def set(self, key, value, _hash="REDHASH_TEST"):
         if len(self.candles) < self.CANDLE_LEN:
@@ -29,7 +29,7 @@ class Database:
     def distance_function(self, event, db_event):
         if not event or not db_event:
             return None
-        return math.sqrt(sum((event.get("features")[i] - db_event.get("features")[i])**2 for i in range(FEATURE_D)))
+        return math.sqrt(sum((event.get("features")[i] - db_event.get("features")[i])**2 for i in range(self.FEATURE_D)))
 
     def update_stopping_criteria(self, db_size, depth):
         """
