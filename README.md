@@ -1,60 +1,55 @@
 # Whodis
 
-Entity Resolution API
+Entity Resolution API (S3 Backend)
 
 ## Overview
 
-Whodis provides an interface into an entity resolution system. It allows users to query and identify entities based on provided information.
+Whodis provides an interface into an entity resolution system backed by AWS S3. It allows users to query and identify entities based on provided information.
+
+## Setup
+
+1. **Credentials**: You must set your AWS credentials as environment variables:
+   ```bash
+   export AWS_ACCESS_KEY_ID=your_access_key
+   export AWS_SECRET_ACCESS_KEY=your_secret_key
+   ```
+   Ensure these credentials have read/write access to the `mithrilmedia` S3 bucket.
+
+2. **Run Server**:
+   ```bash
+   python3 api_server.py
+   ```
 
 ## API
 
-Entity resolution queries can be executed through the `resolve` endpoint.
-
-### Endpoint
-
-POST `/resolve`
-
-### Request Body
-
-- `api_key` (required): Your API key for authentication
-- `body` (required): JSON event-like query object representing the entity to resolve
-- `resolution` (optional): Desired resolution level (0-1000, default is 0, 1000 is highest)
-- `privacy` (optional): Desired amount of privacy in the query response (-1000 to 1000)
-
-### Example Request
-
+### Inject Entity
+`POST /inject`
 ```json
 {
-  "api_key": "your_api_key_here",
   "body": {
     "name": "John Doe",
     "email": "johndoe@example.com"
-  },
-  "resolution": 500,
-  "privacy": 100
+  }
 }
 ```
 
-## Privacy
+### Resolve Entity
+`POST /resolve`
+```json
+{
+  "body": {
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  }
+}
+```
 
-Whodis allows privacy to be included as noise in query responses in two ways:
+## Architecture
 
-1. **Query-level privacy**: Add or remove privacy from a single query using the `privacy` parameter in the request body.
+- **api_server.py**: Flask application handling API requests.
+- **database.py**: Core logic and S3 interaction. Implements the recursive descent entity resolution algorithm.
+- **config.py**: Configuration settings.
 
-2. **Entity-specific privacy**: Inject privacy into specific entities. Future query responses containing these entities will have additional privacy.
+## Demo
 
-## Support
-
-Whodis is a free, public infrastructure project supported by donations from people like you. If you find this service valuable, please consider contributing to its development and maintenance.
-
-## License
-
-Whodis is licensed under the Apache License, Version 2.0. You may obtain a copy of the License at:
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-
-## Contact
-
-For questions, support, or feedback, please contact Mickey Shaughnessy on Twitter: [@mickeyshaughnes](https://twitter.com/mickeyshaughnes)
+Run `python3 demo.py` to verify functionality (requires running server).
